@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Main container*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 30px;
+    background: hsl(30, 38%, 92%);
+}
+.container .product-img img {
+    width: 50vw;
+    height: 100vh;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.container .info {
+    padding: 10px 50px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    background-color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.container .info h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 30px 0;
+    color: hsl(228, 12%, 48%);
+}
+.container .info h2 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-family: 'Fraunces', serif;
+}
+.container .info p {
+    line-height: 20px;
+    letter-spacing: 5px;
+    margin-bottom: 60px;
+    font-weight: 500;
+}
+.container .info .amount {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.container .info .amount .new {
+    font-size: 30px;
+    margin-right: 10px;
+    color: hsl(158, 36%, 37%);
+}
+.container .info .amount .old {
+    text-decoration: line-through;
+}
+.container .info .add-to-cart {
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: hsl(158, 36%, 20%);
+    color: #fff;
+    transition: 0.3s ease;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.container .info .add-to-cart img {
+    margin-right: 5px;
+}
+.container .info .add-to-cart:hover {
+    background-color: hsl(158, 36%, 37%);
+}
+@media screen and (max-width: 400px) {
+    .container {
+        flex-direction: column;
+        padding: 5px;
+        align-items: center;
+    }
+    .container .info {
+        padding: 0px 10px;
+        width: 95vw;
+        height: 0%;
+        justify-content: start;
+    }
+    .container .info h1 {
+        margin: 5px 0;
+    }
+    .container .product-img img {
+        width: 95vw;
+        height: 50vh;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+    }
+}
