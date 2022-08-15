@@ -1,0 +1,51 @@
+.counting{
+    display: block;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 10%;
+    color: rgb(255, 0, 106);
+   
+
+}
+h1{
+    font-size: 30px;
+    color: rgb(196, 49, 81);
+    text-align: center;
+    margin: 20px;
+}
+#countLabel{
+    background-color: rgb(23, 94, 91);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    border-radius: 5%;
+}
+
+.button button{
+    padding: 20px;
+    font-size: 18px;
+    width: 120px;
+    height: 60px;
+    margin-top: 10%;
+   
+}
+
+#increaseBtn{
+    color: bisque;
+    background-color: rgb(80, 68, 3)
+
+}
+#decreaseBtn{
+    color: rgb(29, 19, 8);
+    background-color: rgb(114, 194, 197);
+    padding: 10px;
+}
+#resetBtn{
+    background-color: rgb(107, 65, 52);
+    color: white;
+    padding: 10px;
+}
