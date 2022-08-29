@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  background-origin: padding-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  margin: 0rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0rem;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0.05px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.navbar .logo {
+  width: 6rem;
+  height: 4rem
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.hero-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.hero-info {
+  margin: 2rem;
+  width: 40%;
+}
+.hero-info h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+.card-container .item {
+  margin: 0 1rem 1rem 1rem
+}
+.card-container .item .img-item-container img{
+  width: 324px;
+  height: 413px;
+}
+.card-container .item img.star {
+  width: 1rem;
+  height: 1rem;
+}
+.card-container .item .rating {
+  display: flex;
+}
+.card-container .item .rating p {
+  padding-left: 1rem;
+}
+
+.card-container .item .card-title h3{
+  font-weight: 400;
+  font-size: 1rem;
+}
+.card-container .item .card-title p {
+  font-weight: 200;
+  padding: 0.2rem 0 0 0
+}
+.card-container .item .card-title em {
+  font-style: normal;
+  font-weight: 900;
+}
